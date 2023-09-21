@@ -15,8 +15,33 @@
                 <h1 class="text-center fw-bold">Guillermo Reeder</h1>
             </div>
         </div>
-        <div class="row border">
-            Navbar
+        <div class="row">
+            <!-- components section - NavBar -->
+            <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+                <!-- used docs to change to dark data-bs was added -->
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Coding Temple</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                 <!-- is flexbox with one flexbox -->
+                  <!--justify-content-between added  -->
+                 <!-- collapse navbar = hamburger on smaller sizing -->
+                  <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <!-- removed active -->
+                        <a class="nav-link " aria-current="page" href="#">Learn HTML</a>
+                      <a class="nav-link" href="#">Learn CSS</a>
+                      <a class="nav-link" href="#">Other Page</a>
+                    </div>
+                    <div class="navbar-nav">
+                        <!-- ^^^added flex item^^^^ -->
+                        <a class="nav-link disabled" aria-disabled="true">Link</a>
+                        
+                    </div>
+                  </div>
+                </div>
+              </nav>
         </div>
         <!-- Row 3 - Main Content -->
         <div class="row">
